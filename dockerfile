@@ -1,4 +1,4 @@
-FROM node:fermium-alpine
+FROM node:10-alpine
 ENV NODE_ENV production
 WORKDIR /app
 COPY . .
